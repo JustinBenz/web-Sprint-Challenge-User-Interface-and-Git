@@ -124,7 +124,6 @@ header .hnav a{
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
@@ -136,7 +135,20 @@ header .hnav a{
     width: 40%;
     display: inline-block;
     padding: 0 2%;
-    border-bottom: 2px dotted grey;
+    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
+    margin-right: 8%;
+}
+
+.middle-content .midcontentgroup button{
+    padding: 5%;
+    margin: 4% 0 10% 0;
+    background: lightgrey;
+    border-radius: 25px;
+}
+
+.middle-content .midcontentgroup h1{
+    margin: 5% 0 5% 0;
 }
 
 .middle-content .boxes {
@@ -192,6 +204,11 @@ header .hnav a{
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content.about-page{
+    justify-content: center;
+    flex-flow: column wrap;
 }
 
 .bottom-content .text-container {
