@@ -130,7 +130,7 @@ header .hnav a{
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+/* ABOUT MIDDLE-CONTENT */
 .middle-content .midcontentgroup{
     width: 40%;
     display: inline-block;
@@ -150,7 +150,8 @@ header .hnav a{
 .middle-content .midcontentgroup h1{
     margin: 5% 0 5% 0;
 }
-
+/* END ABOUT MIDDLE-CONTENT */
+/* START MIDDLE-CONTENT */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -207,7 +208,7 @@ header .hnav a{
 .middle-content .boxes .box:nth-child(10){
     background: #1E90FF;
 }
-
+/*END HOME MIDDLE-CONTENT*/
 /*END MIDDLE CONTENT*/
 /*BOTTOM CONTENT*/
 .bottom-content {
