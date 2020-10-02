@@ -85,7 +85,6 @@ header .hnav{
 header .hnav a{
     text-decoration: none;
     font-weight: bold;
-    vertical-align: middle;
     color: black;
     margin-right: 7.5%;
     text-align: left;
@@ -117,6 +116,10 @@ header .hnav a{
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.top-content .text-container.about-page{
+    width: 97%;
 }
 
 .middle-content {
