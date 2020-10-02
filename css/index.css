@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
+/* START CSS RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,11 +66,38 @@ p {
     line-height: 1.4;
 }
 
+/* END CSS RESET */
+/* BODY CONSTRAINT */
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
+/* END BODY CONSTRAINT */
+/* HEADER */
+.h {
+    height: 50px;
+    margin: 4% 0 4% 0;
+}
+
+header .hnav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+header .hnav a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-right: 7.5%;
+    text-align: left;
+}
+/* END HEADER */
+/* TOP CONTENT */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,22 +106,52 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content .tcban {
+    width: 100%;
+    margin: 4% 0 4% 0;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
+.top-content .text-container.about-page{
+    width: 97%;
+}
+/* END TOP CONTENT */
+/* MIDDLE CONTENT */
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
+/* ABOUT MIDDLE-CONTENT */
+.middle-content .midcontentgroup{
+    width: 40%;
+    display: inline-block;
+    padding: 0 2%;
+    border-bottom: 1px dashed black;
+    margin-bottom: 4%;
+    margin-right: 8%;
+}
 
+.middle-content .midcontentgroup button{
+    padding: 2% 5% 2% 5%;
+    margin: 4% 0 10% 0;
+    background: lightgrey;
+    border-radius: 10px;
+}
+
+.middle-content .midcontentgroup h1{
+    margin: 5% 0 5% 0;
+}
+/* END ABOUT MIDDLE-CONTENT */
+/* START MIDDLE-CONTENT */
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -112,10 +169,57 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1){
+    background: #008080;
+}
+
+.middle-content .boxes .box:nth-child(2){
+    background: #FFD700;
+}
+
+.middle-content .boxes .box:nth-child(3){
+    background: #5F9EA0;
+}
+
+.middle-content .boxes .box:nth-child(4){
+    background: #FF7F50;
+}
+
+.middle-content .boxes .box:nth-child(5){
+    background: #DC143C;
+}
+
+.middle-content .boxes .box:nth-child(6){
+    background: #228B22;
+}
+
+.middle-content .boxes .box:nth-child(7){
+    background: #9932CC;
+}
+
+.middle-content .boxes .box:nth-child(8){
+    background: #FF69B4;
+}
+
+.middle-content .boxes .box:nth-child(9){
+    background: #4B0082;
+}
+
+.middle-content .boxes .box:nth-child(10){
+    background: #1E90FF;
+}
+/*END HOME MIDDLE-CONTENT*/
+/*END MIDDLE CONTENT*/
+/*BOTTOM CONTENT*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+}
+
+.bottom-content.about-page{
+    justify-content: center;
+    flex-flow: column wrap;
 }
 
 .bottom-content .text-container {
@@ -125,7 +229,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/*END BOTTOM CONTENT*/
+/*START FOOTER */
 footer {
     width: 100%;
     background: black;
@@ -144,3 +249,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*END FOOTER */
