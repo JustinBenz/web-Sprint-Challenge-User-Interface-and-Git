@@ -132,6 +132,13 @@ header .hnav a{
     margin-bottom: 0;
 }
 
+.middle-content .midcontentgroup{
+    width: 40%;
+    display: inline-block;
+    padding: 0 2%;
+    border-bottom: 2px dotted grey;
+}
+
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
