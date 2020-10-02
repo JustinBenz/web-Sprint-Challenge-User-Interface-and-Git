@@ -65,12 +65,16 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+
 /* END CSS RESET */
+/* BODY CONSTRAINT */
 
 .container {
     width: 800px;
     margin: 0 auto;
 }
+
+/* END BODY CONSTRAINT */
 /* HEADER */
 .h {
     height: 50px;
@@ -92,6 +96,8 @@ header .hnav a{
     margin-right: 7.5%;
     text-align: left;
 }
+/* END HEADER */
+/* TOP CONTENT */
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +120,8 @@ header .hnav a{
 .top-content .text-container.about-page{
     width: 97%;
 }
-
+/* END TOP CONTENT */
+/* MIDDLE CONTENT */
 .middle-content {
     margin-bottom: 20px;
 }
@@ -164,35 +171,45 @@ header .hnav a{
 .middle-content .boxes .box:nth-child(1){
     background: #008080;
 }
+
 .middle-content .boxes .box:nth-child(2){
     background: #FFD700;
 }
+
 .middle-content .boxes .box:nth-child(3){
     background: #5F9EA0;
 }
+
 .middle-content .boxes .box:nth-child(4){
     background: #FF7F50;
 }
+
 .middle-content .boxes .box:nth-child(5){
     background: #DC143C;
 }
+
 .middle-content .boxes .box:nth-child(6){
     background: #228B22;
 }
+
 .middle-content .boxes .box:nth-child(7){
     background: #9932CC;
 }
+
 .middle-content .boxes .box:nth-child(8){
     background: #FF69B4;
 }
+
 .middle-content .boxes .box:nth-child(9){
     background: #4B0082;
 }
+
 .middle-content .boxes .box:nth-child(10){
     background: #1E90FF;
 }
 
-
+/*END MIDDLE CONTENT*/
+/*BOTTOM CONTENT*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -211,7 +228,8 @@ header .hnav a{
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/*END BOTTOM CONTENT*/
+/*START FOOTER */
 footer {
     width: 100%;
     background: black;
@@ -230,3 +248,4 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*END FOOTER */
